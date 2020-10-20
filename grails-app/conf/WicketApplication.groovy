@@ -27,6 +27,10 @@ public class WicketApplication extends WebApplication {
         // mount(new MountedMapper("/home1",HomePage.class, new UrlPathPageParametersEncoder()))
         mountPage("/home2",HomePage.class)
         mountPage("/hometest",HelloWorld.class)
+        mountPage("/echoPage",EchoPage.class)
+        mountPage("/echo",Echo.class)
+
+
 
 
     }
