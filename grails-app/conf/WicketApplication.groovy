@@ -8,6 +8,8 @@ import org.apache.wicket.RuntimeConfigurationType
 // import org.apache.wicket.request.mapper.MountedMapper
 import org.apache.wicket.request.mapper.parameter.UrlPathPageParametersEncoder
 
+import java.awt.print.Pageable
+
 public class WicketApplication extends WebApplication {
     
     /**
@@ -29,6 +31,7 @@ public class WicketApplication extends WebApplication {
         mountPage("/hometest",HelloWorld.class)
         mountPage("/echoPage",EchoPage.class)
         mountPage("/echo",Echo.class)
+        mountPage("/repeat", PageablesPage.class)
 
 
 

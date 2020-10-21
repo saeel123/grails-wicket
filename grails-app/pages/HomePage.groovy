@@ -37,7 +37,7 @@ public class HomePage extends WebPage {
 
 
         // Add the simplest type of label
-        add(new Label("message", "hello World"));
+        add(new Label("message", responseText));
 
         // TODO Add your page's components here
 
