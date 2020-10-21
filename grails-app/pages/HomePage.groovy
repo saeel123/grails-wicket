@@ -4,6 +4,9 @@ import org.apache.wicket.markup.html.WebPage
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import shopify.api.ShopifyClient
 
+
+
+
 /**
  * Homepage
  */
@@ -37,5 +40,9 @@ public class HomePage extends WebPage {
         add(new Label("message", "hello World"));
 
         // TODO Add your page's components here
+
+
+	
+
     }
 }
