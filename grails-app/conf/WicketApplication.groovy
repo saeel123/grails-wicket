@@ -34,6 +34,8 @@ public class WicketApplication extends WebApplication {
         mountPage("/repeat", PageablesPage.class)
         mountPage("/listview", RepeaterTest.class)
         mountPage("/dataviewtest", DataViewTest.class)
+        mountPage("/datapagingtest", DataPagingTest.class)
+        mountPage("/productdataview", ProductPage.class)
 
 
 
